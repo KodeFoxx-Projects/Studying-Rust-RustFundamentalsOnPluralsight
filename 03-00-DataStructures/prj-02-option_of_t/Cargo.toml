@@ -1,0 +1,6 @@
+[package]
+name = "prj-02-option_of_t"
+version = "0.1.0"
+authors = ["Yves Schelpe <yves.schelpe@gmail.com>"]
+
+[dependencies]
