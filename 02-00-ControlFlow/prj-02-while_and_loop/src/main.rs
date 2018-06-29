@@ -33,6 +33,12 @@ fn while_and_loop() {
     for x in 1..11 { //11 is the upper bound
         println!("x = {}", x);
     }
+
+    println!("");
+    println!("for loop (position, and element)");
+    for (pos,x) in (30..41).enumerate() {
+        println!("{}: is = {}", pos, x);
+    }
 }
 
 fn main() {
